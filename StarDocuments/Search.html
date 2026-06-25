@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB Search</title>
+    <style>
+        body {
+            background-image: url('imageX.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+
+
+<body>
+    <h1>WEB Search</h1>
+<br>
+<br>
+<img src="gEye.jpg" alt="Google" width="128" height="128">
+<!--
+<form method="GET" action="https://www.google.com/search">
+    <input name="q" type="text">
+    <input type="submit">
+</form>
+<br>
+<br>
+-->
+<br>
+<br>
+<form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+<input name="sitesearch" type="hidden" value="">
+<input autocomplete="on" class="form-control search" name="q" placeholder="" required="required"  type="text">
+<button class="button" type="submit">Search</button>
+</form>
+<br>
+<br>
+<br>
+<br>
+    <a href="..\index.html" class="button">Back to GitHUB Home</a>
+</body>
+</html>
